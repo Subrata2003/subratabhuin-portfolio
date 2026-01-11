@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.skill-pill {
+  @apply px-3 py-1 text-sm rounded-full 
+         bg-card border border-white/10 
+         text-muted hover:text-white 
+         hover:border-accent 
+         transition-colors duration-200 
+         cursor-default;
+}
